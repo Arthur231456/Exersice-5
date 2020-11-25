@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>331</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Кофеёчек</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>471</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="currentText">
+     <string>-</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>-</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Эспрессо</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Кофе по-венски</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Медовый раф</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Айриш</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Капуччино</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Гляссе</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Кофе по-турецки</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ристретто</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Латте</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Мокко</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Американо</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Мокаччино</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>41</y>
+      <width>461</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="showGrid">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
